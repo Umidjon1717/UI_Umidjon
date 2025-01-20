@@ -1,6 +1,7 @@
 import movie from './assets/images/movie.png'
 import clothe from './assets/images/clothe.png'
 import belissimo from './assets/images/bellissimo.png'
+import shopping from './assets/images/shopping.png'
 const logotext = "FULL_STACK DEVELOPER";
 const meta = {
     title: "Umidjon Izzatullayev",
@@ -104,6 +105,11 @@ const dataportfolio = [{
         img: belissimo,
         description: "The restaurant backend swagger done with Bellissimo's original website UI",
         link: "http://3.65.218.182:3010/api",
+    },
+    {
+        img: shopping,
+        description: "The shopping backend swagger, still working on its frontend part. It is group work",
+        link: "https://shaxriyorbek.uz/api/docs",
     }
 ];
 
