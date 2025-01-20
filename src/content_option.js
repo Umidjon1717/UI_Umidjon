@@ -5,6 +5,8 @@ import shopping from "./assets/images/shopping.png";
 import form from "./assets/images/form.png";
 import hospital from "./assets/images/hospital.png";
 import finsweet from "./assets/images/finsweet.png";
+import product from "./assets/images/product.png";
+
 const logotext = "FULL_STACK DEVELOPER";
 const meta = {
   title: "Umidjon Izzatullayev",
@@ -152,6 +154,11 @@ const miniProjects = [
     img: finsweet,
     description: "Finsweet website done with Figma",
     link: "https://finsweet-vue.vercel.app",
+  },
+  {
+    img: product,
+    description: "Product buying done with Telegram bot",
+    link: "https://product-tg.vercel.app",
   },
 ];
 
