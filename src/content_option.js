@@ -101,6 +101,17 @@ const services = [
   },
 ];
 
+const achievements = [
+    {
+      title: "IELTS",
+      description: "https://docs.google.com/document/d/1mrpZh7oT5TOhNs6S8wxcjrQ3oCBynfeKbbNRQo-w_cM/edit?usp=sharing",
+    },
+    {
+        title: "Najot Ta'lim",
+        description: "https://erp.student.najottalim.uz/public/certificate/1e5bc14b-803c-40f7-8d63-e6db6a67da35",
+      },
+];
+
 const dataportfolio = [
   {
     img: movie,
@@ -170,4 +181,5 @@ export {
   socialprofils,
   logotext,
   miniProjects,
+  achievements,
 };

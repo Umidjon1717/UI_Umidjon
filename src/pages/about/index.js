@@ -10,7 +10,24 @@ import {
   services,
 } from "../../content_option";
 
+const achievements = [
+  {
+    title: "IELTS",
+    description:
+      "https://docs.google.com/document/d/1mrpZh7oT5TOhNs6S8wxcjrQ3oCBynfeKbbNRQo-w_cM/edit?usp=sharing",
+  },
+  {
+    title: "Najot Ta'lim",
+    description:
+      "https://erp.student.najottalim.uz/public/certificate/1e5bc14b-803c-40f7-8d63-e6db6a67da35",
+  },
+];
+
 export const About = () => {
+  const handleButtonClick = (url) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -70,8 +87,7 @@ export const About = () => {
                       style={{
                         width: `${data.value}%`,
                       }}
-                    >
-                    </div>
+                    ></div>
                   </div>
                 </div>
               );
@@ -79,8 +95,8 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+          <Col lg="5">
+            <h3 className="color_sec py-4">Services</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
@@ -91,6 +107,24 @@ export const About = () => {
                 </div>
               );
             })}
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Achievements</h3>
+          </Col>
+          <Col lg="7">
+            {achievements.map((achievement, i) => (
+              <div key={i} className="achievement">
+                <h5>{achievement.title}</h5>
+                <button
+                  className="btn btn-primary mt-2"
+                  onClick={() => handleButtonClick(achievement.description)}
+                >
+                  View Certificate
+                </button>
+              </div>
+            ))}
           </Col>
         </Row>
       </Container>
