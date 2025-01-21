@@ -7,6 +7,7 @@ import hospital from "./assets/images/hospital.png";
 import finsweet from "./assets/images/finsweet.png";
 import product from "./assets/images/product.png";
 import rentCar from "./assets/images/rentCar.png";
+import business from "./assets/images/business.png";
 
 const logotext = "FULL_STACK DEVELOPER";
 const meta = {
@@ -165,6 +166,11 @@ const miniProjects = [
     img: rentCar,
     description: "Rent Car website backend part done with RentCar.uz original website UI",
     link: "https://github.com/Umidjon1717/prisma",
+  },
+  {
+    img: business,
+    description: "Business website frontend part which is group work",
+    link: "https://business-web-flax.vercel.app",
   },
 ];
 
