@@ -6,6 +6,7 @@ import form from "./assets/images/form.png";
 import hospital from "./assets/images/hospital.png";
 import finsweet from "./assets/images/finsweet.png";
 import product from "./assets/images/product.png";
+import rentCar from "./assets/images/rentCar.png";
 
 const logotext = "FULL_STACK DEVELOPER";
 const meta = {
@@ -159,6 +160,11 @@ const miniProjects = [
     img: product,
     description: "Product buying done with Telegram bot",
     link: "https://product-tg.vercel.app",
+  },
+  {
+    img: rentCar,
+    description: "Rent Car website backend part done with RentCar.uz original website UI",
+    link: "https://github.com/Umidjon1717/prisma",
   },
 ];
 
