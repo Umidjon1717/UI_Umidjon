@@ -118,6 +118,12 @@ const achievements = [
 
 const dataportfolio = [
   {
+    img: shopping,
+    description:
+      "The shopping backend swagger, still working on its frontend part. It is group work",
+    link: "https://furnishing.vercel.app",
+  },
+  {
     img: movie,
     description: "The movie website done with TMDB",
     link: "https://bild-tick.vercel.app",
@@ -132,12 +138,6 @@ const dataportfolio = [
     description:
       "The restaurant backend swagger done with Bellissimo's original website UI",
     link: "http://3.65.218.182:3010/api",
-  },
-  {
-    img: shopping,
-    description:
-      "The shopping backend swagger, still working on its frontend part. It is group work",
-    link: "https://shaxriyorbek.uz/api/docs",
   },
 ];
 
