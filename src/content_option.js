@@ -8,6 +8,7 @@ import finsweet from "./assets/images/finsweet.png";
 import product from "./assets/images/product.png";
 import rentCar from "./assets/images/rentCar.png";
 import business from "./assets/images/business.png";
+import exclusive from "./assets/images/exclusive.png";
 
 const logotext = "FULL_STACK DEVELOPER";
 const meta = {
@@ -138,6 +139,12 @@ const dataportfolio = [
     description:
       "The restaurant backend swagger done with Bellissimo's original website UI",
     link: "http://3.65.218.182:3010/api",
+  },
+  {
+    img: exclusive,
+    description:
+      "The exclusive frontend done with DummyJson",
+    link: "https://shopping-exclsive-x1c9.vercel.app",
   },
 ];
 
