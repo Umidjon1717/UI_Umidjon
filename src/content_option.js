@@ -121,18 +121,13 @@ const dataportfolio = [
   {
     img: shopping,
     description:
-      "The shopping backend swagger, still working on its frontend part. It is group work",
+      "The shopping full website. It is group work",
     link: "https://furnishing.vercel.app",
   },
   {
     img: movie,
     description: "The movie website done with TMDB",
     link: "https://bild-tick.vercel.app",
-  },
-  {
-    img: clothe,
-    description: "The clothing website done with Redux",
-    link: "https://elegant-seven-zeta.vercel.app",
   },
   {
     img: belissimo,
@@ -149,6 +144,11 @@ const dataportfolio = [
 ];
 
 const miniProjects = [
+  {
+    img: clothe,
+    description: "The clothing website done with Redux",
+    link: "https://elegant-seven-zeta.vercel.app",
+  },
   {
     img: form,
     description: "Simple form done with Vue",
