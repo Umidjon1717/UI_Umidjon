@@ -39,12 +39,12 @@ const worktimeline = [
   {
     edutitle: "Westiminster International university",
     where: "Tashkent",
-    date: "2022",
+    date: "2022 - now",
   },
   {
     edutitle: "Najot Ta'lim",
     where: "Tashkent",
-    date: "2023",
+    date: "2023 - 2025",
   },
 ];
 
