@@ -22,7 +22,7 @@ export default function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop>
         <Snowfall
-          snowflakeCount={30}
+          snowflakeCount={20}
           style={{
 
             width: "100vw",

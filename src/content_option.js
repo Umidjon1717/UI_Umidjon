@@ -51,43 +51,43 @@ const worktimeline = [
 const skills = [
   {
     name: "Javascript",
-    value: 90,
+    value: 75,
   },
   {
     name: "HTML/CSS",
-    value: 85,
+    value: 75,
   },
   {
     name: "Vuejs",
-    value: 60,
+    value: 75,
   },
   {
     name: "React",
-    value: 90,
+    value: 75,
   },
   {
     name: "Typescript",
-    value: 85,
+    value: 75,
   },
   {
     name: "Tailwindcss",
-    value: 80,
+    value: 75,
   },
   {
     name: "Sass",
-    value: 95,
+    value: 75,
   },
   {
     name: "MySql/NoSql",
-    value: 85,
+    value: 75,
   },
   {
     name: "Nodejs",
-    value: 85,
+    value: 75,
   },
   {
     name: "Nestjs",
-    value: 95,
+    value: 75,
   },
   {
     name: "Nextjs",
@@ -97,12 +97,12 @@ const skills = [
 
 const services = [
   {
-    title: "Backend Developer",
-    description: "I can work with Nodejs, Nestjs for backend development",
+    title: "Open-source contributions & Cybersecurity & ethical hacking",
+    description: "Helping improve projects on GitHub and learning penetration testing and security techniques",
   },
   {
-    title: "Frontend Develpoer",
-    description: "I can work with Vuejs, Reactjs for frontend development",
+    title: "Graphic design & 3D modeling & animation",
+    description: "Blender, Maya, Cinema 4D, Figma, Photoshop, Illustrator.",
   },
 ];
 
