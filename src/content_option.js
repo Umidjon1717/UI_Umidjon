@@ -2,6 +2,7 @@ import movie from "./assets/images/movie.png";
 import clothe from "./assets/images/clothe.png";
 import belissimo from "./assets/images/bellissimo.png";
 import shopping from "./assets/images/shopping.png";
+import shopping2 from "./assets/images/shopping2.png";
 import form from "./assets/images/form.png";
 import hospital from "./assets/images/hospital.png";
 import finsweet from "./assets/images/finsweet.png";
@@ -123,6 +124,12 @@ const dataportfolio = [
     description:
       "The shopping full website. It is group work",
     link: "https://furnishing.vercel.app",
+  },
+  {
+    img: shopping2,
+    description:
+      "The shopping project",
+    link: "https://hayleks-horeca.vercel.app",
   },
   {
     img: movie,
