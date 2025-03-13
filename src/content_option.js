@@ -10,6 +10,7 @@ import product from "./assets/images/product.png";
 import rentCar from "./assets/images/rentCar.png";
 import business from "./assets/images/business.png";
 import exclusive from "./assets/images/exclusive.png";
+import cv from "./assets/images/cv.png";
 
 const logotext = "FULL_STACK DEVELOPER";
 const meta = {
@@ -124,6 +125,12 @@ const dataportfolio = [
     description:
       "The shopping full website. It is group work",
     link: "https://furnishing.vercel.app",
+  },
+  {
+    img: cv,
+    description:
+      "CV Maker website stored in redux",
+    link: "https://cv-maker-gamma-fawn.vercel.app/resume",
   },
   {
     img: shopping2,
