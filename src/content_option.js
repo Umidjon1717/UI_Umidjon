@@ -147,7 +147,7 @@ const dataportfolio = [
     img: belissimo,
     description:
       "The restaurant backend swagger done with Bellissimo's original website UI",
-    link: "http://3.65.218.182:3010/api",
+    link: "https://github.com/Umidjon1717/Restaurant_Exam",
   },
   {
     img: exclusive,
