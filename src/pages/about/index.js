@@ -6,6 +6,7 @@ import {
   dataabout,
   meta,
   worktimeline,
+  worktimeline2,
   skills,
   services,
 } from "../../content_option";
@@ -60,6 +61,26 @@ export const About = () => {
             <table className="table caption-top">
               <tbody>
                 {worktimeline.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.edutitle}</th>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Work Experience</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {worktimeline2.map((data, i) => {
                   return (
                     <tr key={i}>
                       <th scope="row">{data.edutitle}</th>

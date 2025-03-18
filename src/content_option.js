@@ -49,6 +49,18 @@ const worktimeline = [
     date: "2023 - 2025",
   },
 ];
+const worktimeline2 = [
+  {
+    edutitle: "Najot Ta'lim",
+    where: "Tashkent",
+    date: "2025 January - 2025 March",
+  },
+  {
+    edutitle: "Tenzor Soft",
+    where: "Tashkent",
+    date: "2025 March - now",
+  },
+];
 
 const skills = [
   {
@@ -214,6 +226,7 @@ export {
   dataabout,
   dataportfolio,
   worktimeline,
+  worktimeline2,
   skills,
   services,
   introdata,
